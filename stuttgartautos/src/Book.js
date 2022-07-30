@@ -19,7 +19,7 @@ export default function Book(){
       <label for="last-name">Enter Your Last Name: <input type="text" name="last-name" required /></label>
       <label for="email">Enter Your Email: <input type="email" name="email" required />
       </label>
-      <label for="number">Phone:
+      <label for="number">Phone number :
         <input type="number" name="phone"  required /></label>
     </fieldset>
     <fieldset>
