@@ -23,7 +23,7 @@ export default function Book(){
         <input type="number" name="phone"  required /></label>
     </fieldset>
     <fieldset>
-      <label for="file">Upload your car picture: <input type="file" name="file" /></label>
+      <label for="file">Upload the  car picture: <input type="file" name="file" /></label>
       <label for="age">location  (probably your exact map geo map):
         <input /></label>
       <label for="referrer">How can we help you?
