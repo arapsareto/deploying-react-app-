@@ -5,37 +5,40 @@ export default function Book(){
 
     return(
 <div id="book">
-    <h3>Need Facebeat,full body repair, or scheduled serivice?Give us a poke</h3>
+   
  <div id="form">
  <Form >
-    <FormGroup>
-        <label>Your name</label>
-        <input type='text'  name='name' placeholder='enter your name'></input>
-    </FormGroup>
-    {/* <FormGroup>
-        <label>email address</label>
-        <input type='email'  name='email' placeholder='email address'></input>
-    </FormGroup> */}
-    <FormGroup>
-        <label>Phone</label>
-        <input type='text'  name='name' placeholder='phone number'></input>
-    </FormGroup>
-    <FormGroup>
-        <label>Benz model</label>
-        
-        <select>
-            <option value='e class'>E class</option>
-            <option  value='c class'>C class</option>
-            <option value='s class'>S class</option>
-            <option value='G '>G wagon</option>
+     <h1>Request for assitance/Booking</h1>
+  <p>Please fill  with the required information</p>
+
+  <form action="#">
+    <fieldset>
+      <label for="name">Enter Your First Name:
+        <input type="text" name="first-name" required />
+      </label>
+      <label for="last-name">Enter Your Last Name: <input type="text" name="last-name" required /></label>
+      <label for="email">Enter Your Email: <input type="email" name="email" required />
+      </label>
+      <label for="number">Phone:
+        <input type="number" name="phone"  required /></label>
+    </fieldset>
+    <fieldset>
+      <label for="file">Upload your car picture: <input type="file" name="file" /></label>
+      <label for="age">location  (probably your exact map geo map):
+        <input /></label>
+      <label for="referrer">How can we help you?
+        <select name="need">
+          <option value="">(select one)</option>
+          <option value="1">Tow and repair</option>
+          <option value="2">Facebeat</option>
+          <option value="3">Full body work</option>
+          <option value="4">shocks</option>
         </select>
-    </FormGroup>
-    <FormGroup>
-        <label>Subject</label>
-        <input type='text'  name='name' placeholder='subject'></input>
-    </FormGroup>
-    
-    <button>Submit request</button>
+      </label>
+    </fieldset>
+    <input type="submit" value="Submit" />
+  </form>
+   
  </Form>
  </div>
     
