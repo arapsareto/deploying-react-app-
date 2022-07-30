@@ -1,0 +1,8 @@
+{
+    "Stuttgart": [
+      { "Car": "Mercedes Benz ", "Year": "1995" },
+      { "Car": "Mercedes Benz", "Year": "1976" },
+      { "Car": "Mercedes Benz", "Year": "2000" },
+      { "Car": "Mercedes Benz", "Year": "2000" }
+    ]
+  }
