@@ -2,10 +2,11 @@ import { set } from "date-fns";
 import React,{useState,useEffect} from "react";
 import Book from "./Book";
 export default function Completed(){
+  
     
     const [cars, setCars] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:3000/Stuttgart")
+        fetch("https://jsona.herokuapp.com/Stuttgart")
           .then((r) => r.json())
           .then((data) => {
             setCars(data)
@@ -26,12 +27,14 @@ export default function Completed(){
             
         )
         })
+     
  return(
 <div id="completed">
    
     <h5>These are the completed cars from our garage</h5>
 
 <div className="display">{displayed}</div>
+<div>{newCar}</div>
 </div>
     )
 }
