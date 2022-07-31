@@ -6,7 +6,7 @@ export default function Completed(){
     
     const [cars, setCars] = useState([]);
     useEffect(() => {
-        fetch("https://jsona.herokuapp.com/Stuttgart")
+        fetch("https://stuttgartjson.herokuapp.com/Stuttgart")
           .then((r) => r.json())
           .then((data) => {
             setCars(data)
@@ -34,7 +34,7 @@ export default function Completed(){
     <h5>These are the completed cars from our garage</h5>
 
 <div className="display">{displayed}</div>
-<div>{newCar}</div>
+
 </div>
     )
 }
